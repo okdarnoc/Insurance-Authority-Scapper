@@ -1,8 +1,26 @@
-The more RAM memory you have, the better it is, higher than 16 gigs of ram is best, maybe look at some cloud computer or some VPS.
+## Insurance-Authority-Scapper
+The scapper uses python with 
+httpx==0.16.0
+pandas==1.1.3
+loguru==0.5.3
+
+The scarpper download both 
+
+## How to install prerequisites?
 For this you need Python 3.
 In order to install it the needed libraries, run this command:
+```sh
 pip install -r requirements.txt
+```
 OR
-pip3 instead of pip, that depends on your computer's installation.
+```sh
+pip3 install -r requirements.txt
+```
 
-then you just run python/python3 main.py
+## How to run the program?
+```sh
+python/python3 main.py
+```
+
+## What is the output?
+CSV files in the "extracted" folder.
